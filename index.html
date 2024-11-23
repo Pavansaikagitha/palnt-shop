@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan sai</title>
+    <!-- css -->
+    <link rel="stylesheet" href="output.css">
+    <!-- remix icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+        integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- nav bar section -->
+    <header class="bg-green-950 fixed w-full top-0 left-0 z-50">
+        <nav class="container flex items-center justify-between h-16 sm:h-20 ">
+            <div class="font-Jost text-yellow-400  sm:text-2xl font-bold">Tailwind Css</div>
+            <div id="nav-menu"
+                class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+                <ul class="flex flex-col lg:flex-row items-center gap-8 font-bold lg:flex-row ">
+                    <li>
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#popular" class="nav-link">Popular</a>
+                    </li>
+                    </li>
+                    <a href="#review" class="nav-link">Review</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+                <i class="ri-menu-4-line" id="hamburger"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero section starts -->
+    <main>
+        <section class="relative section">
+            <div class="container">
+                <div
+                    class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                </div>
+                <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute right-0 bottom-0">
+                </div>
+
+                <div class="flex flex-col items-center w-full lg:flex-row gap-8">
+                    <div class="w-full lg:w-1/2 space-y-5">
+                        <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white">
+                            <span class="text-pink-500">Plant</span> make a <br>
+                            positive <span class="text-pink-900">impact</span> on your environment
+                        </h1>
+                        <p class="text-white font-Lobster">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Distinctio fugiat eveniet, reprehenderit veritatis aut explicabo voluptatum ullam itaque
+                            tenetur numquam!</p>
+                        <div class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10">
+                            <button class="btn"> <span class="font-bold">Shop Now</span> <i
+                                    class="ri-leaf-line"></i></button>
+                            <button class="btn btn-out"><span class="font-bold">Know More</span> <i
+                                    class="ri-leaf-line"></i></button>
+                        </div>
+                        <p class="font-Lobster text-slate-300 text-xs">You will get 30-days free trial.</p>
+                        <div class="flex items-center gap-4 text-lg lg:pt-10">
+                            <i
+                                class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                            <i
+                                class="ri-twitter-x-fill  text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+                            <i
+                                class="ri-linkedin-box-fill  text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                            <i
+                                class="ri-instagram-line  text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 space-y-5 filter grayscale hover:grayscale-0">
+                        <img src="home.png" alt="home_img">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- service section starts -->
+        <div class="bg-white text-green-900 py-20">
+            <div class="container w-full grid grid-cols-1 gap-5  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <!-- card-1 -->
+                <div class=" border border-green-900 rounded-md p-5 cursor-pointer">
+                    <div class="flex items-center gap-5 mb-5">
+                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">Lorem <br>lorem ipsum</p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+                    </p>
+                </div>
+                <!-- card-1 -->
+                <div class=" border border-green-900 rounded-md p-5 cursor-pointer">
+                    <div class="flex items-center gap-5 mb-5">
+                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">Lorem <br>lorem ipsum</p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+                    </p>
+                </div>
+                <!-- card-1 -->
+                <div class=" border border-green-900 rounded-md p-5 cursor-pointer">
+                    <div class="flex items-center gap-5 mb-5">
+                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">Lorem <br>lorem ipsum</p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+                    </p>
+                </div>
+                <!-- card-1 -->
+                <div class=" border border-green-900 rounded-md p-5 cursor-pointer">
+                    <div class="flex items-center gap-5 mb-5">
+                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">Lorem <br>lorem ipsum</p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- service section end -->
+        <!-- about section starts -->
+        <section id="about" class="relative overflow-hidden section">
+            <div class="absolute -top-5 -right-12 opacity-50">
+                <img src="leaf-3.png" alt="leaf-img" class="w-40 md:w-52 xl:w-65">
+            </div>
+            <div class="flex flex-col items-center justify-center mb-10 md:mb-20">
+                <h2 class="font-Lobster text-3xl text-yellow-500">About Us</h2>
+                <p class="text-1xl max-w-2xl">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="container space-y-10 xl:space-y-0">
+                <div class="flex flex-col lg:flex-row gap-5 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <img src="plant-1.png" alt="plant-img" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="space-y-5">
+                            <h3 class="text-2xl sm:text-3xl lg:text-4xl">Make your <span
+                                    class="text-yellow-500">organic</span> <br> garden</h3>
+                            <p class="text-slate-300 font-Lobster"> Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit. Tempore, dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                                earum explicabo incidunt quos! Fugit blanditiis quos voluptatem voluptate at suscipit.
+                                Vel amet nihil similique exercitationem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row-reverse gap-5 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <img src="plant-1.png" alt="plant-img" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="space-y-5">
+                            <h3 class="text-2xl sm:text-3xl lg:text-4xl">Make your <span
+                                    class="text-yellow-500">organic</span> <br> garden</h3>
+                            <p class="text-slate-300 font-Lobster"> Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit. Tempore, dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                                earum explicabo incidunt quos! Fugit blanditiis quos voluptatem voluptate at suscipit.
+                                Vel amet nihil similique exercitationem!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end -->
+        <!-- popular starts -->
+        <section id="popular" class=" bg-green-900 section">
+            <div class="flex flex-col items-center justify-center mb-40">
+                <h2 class="font-Lobster text-3xl text-yellow-500">Your Choice Plant</h2>
+                <p class="text-1xl max-w-2xl">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+
+            <div
+                class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <!-- card-1 -->
+                <div class="relative p-10 pt-24 rounded-md bg-green-950">
+                    <img src="home.png" alt="home-img"
+                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+                    <p class="italic">Nephrolepis exaltata</p>
+                    <h3 class="text-3xl">Boston Fern</h3>
+                    <div class="text-yellow-500 text-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">$5</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- card-1 -->
+                <div class="relative p-10 pt-24 rounded-md bg-green-950">
+                    <img src="home.png" alt="home-img"
+                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+                    <p class="italic">Nephrolepis exaltata</p>
+                    <h3 class="text-3xl">Boston Fern</h3>
+                    <div class="text-yellow-500 text-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">$5</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- card-1 -->
+                <div class="relative p-10 pt-24 rounded-md bg-green-950">
+                    <img src="home.png" alt="home-img"
+                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+                    <p class="italic">Nephrolepis exaltata</p>
+                    <h3 class="text-3xl">Boston Fern</h3>
+                    <div class="text-yellow-500 text-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">$5</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- card-1 -->
+                <div class="relative p-10 pt-24 rounded-md bg-green-950">
+                    <img src="home.png" alt="home-img"
+                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+                    <p class="italic">Nephrolepis exaltata</p>
+                    <h3 class="text-3xl">Boston Fern</h3>
+                    <div class="text-yellow-500 text-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                        <i class="ri-star-line text-gray-400"></i>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">$5</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popular end -->
+        <!-- review section starts -->
+        <section id="review" class=" relative section mb-20 md:mb-28 overflow-hidden">
+            <div class="flex flex-col items-center justify-center mb-40">
+                <h2 class="font-Lobster text-3xl text-yellow-500">Customer Review</h2>
+                <p class="text-1xl max-w-2xl">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="container">
+
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="flex flex-col bg-green-900 rounded-md p-6 gap-5">
+                                <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellat quos voluptas at dolor. Molestias quod perspiciatis architecto? Delectus
+                                    molestias beatae eos eligendi dolores soluta repudiandae.</p>
+
+                                <div class="flex items-center">
+                                    <div
+                                        class="bg-yellow-400 h-10 w-10  rounded-full flex items-center justify-center text-3xl text-pink-700 animate-spin duration-700">
+                                        S</div>
+                                    <div class="ml-5 mt-2">
+                                        <p class="text-yellow-500 uppercase mb-0">Pavan Sai</p>
+                                        <p>Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col bg-green-900 rounded-md p-6 gap-5">
+                                <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellat quos voluptas at dolor. Molestias quod perspiciatis architecto? Delectus
+                                    molestias beatae eos eligendi dolores soluta repudiandae.</p>
+
+                                <div class="flex items-center">
+                                    <div
+                                        class="bg-yellow-400 h-10 w-10  rounded-full flex items-center justify-center text-3xl text-pink-700 animate-spin duration-700">
+                                        S</div>
+                                    <div class="ml-5 mt-2">
+                                        <p class="text-yellow-500 uppercase mb-0">Pavan Sai</p>
+                                        <p>Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col bg-green-900 rounded-md p-6 gap-5">
+                                <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellat quos voluptas at dolor. Molestias quod perspiciatis architecto? Delectus
+                                    molestias beatae eos eligendi dolores soluta repudiandae.</p>
+
+                                <div class="flex items-center">
+                                    <div
+                                        class="bg-yellow-400 h-10 w-10  rounded-full flex items-center justify-center text-3xl text-pink-700 animate-spin duration-700">
+                                        S</div>
+                                    <div class="ml-5 mt-2">
+                                        <p class="text-yellow-500 uppercase mb-0">Pavan Sai</p>
+                                        <p>Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col bg-green-900 rounded-md p-6 gap-5">
+                                <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellat quos voluptas at dolor. Molestias quod perspiciatis architecto? Delectus
+                                    molestias beatae eos eligendi dolores soluta repudiandae.</p>
+
+                                <div class="flex items-center">
+                                    <div
+                                        class="bg-yellow-400 h-10 w-10  rounded-full flex items-center justify-center text-3xl text-pink-700 animate-spin duration-700">
+                                        S</div>
+                                    <div class="ml-5 mt-2">
+                                        <p class="text-yellow-500 uppercase mb-0">Pavan Sai</p>
+                                        <p>Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col bg-green-900 rounded-md p-6 gap-5">
+                                <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellat quos voluptas at dolor. Molestias quod perspiciatis architecto? Delectus
+                                    molestias beatae eos eligendi dolores soluta repudiandae.</p>
+
+                                <div class="flex items-center">
+                                    <div
+                                        class="bg-yellow-400 h-10 w-10  rounded-full flex items-center justify-center text-3xl text-pink-700 animate-spin duration-700">
+                                        S</div>
+                                    <div class="ml-5 mt-2">
+                                        <p class="text-yellow-500 uppercase mb-0">Pavan Sai</p>
+                                        <p>Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+               
+            </div>
+        </section>
+        <!-- review section end -->
+    </main>
+
+    <!-- footer -->
+     <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
+        <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
+            <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
+                <h3 class="text-2xl sm:text-3xl"><span class="text-yellow-500">Subscribe</span> to our newsletter</h3>
+                <div class="flex gap-1 flex-col md:flex-row">
+                    <input type="text" placeholder="Your Email Addres" class="w-full px-5 py-3 text-green-900 rounded-md outline-none">
+                    <button class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+                        <span>Subscribe</span>
+                        <i class="ri-send-plane-2-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class=" container mt-16 mb-10"  >
+            <div class="border-b border-green-500 relative">
+                <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+                    <div class="bg-yellow-100 text-lg text-center space-x-2">
+                        <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        <i class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+                        <i class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>                        
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div>
+                <div class="text-7xl text-green-700 text-center inline-block">
+                    <i class="ri-leaf-fill"></i>
+                    <p class="font-Lobster text-xl sm:text-2xl">Tailwin css</p>
+                </div>
+            </div>
+            <div>
+                <p class="mb-5 font-bold text-xl">Quick Link</p>
+
+                <div class="flex flex-col gap-1">
+                    <a href="#">Plants gtr</a>
+                    <a href="#">Plants</a>
+                    <a href="#">Plants lorem</a>
+                    <a href="#">Plants</a>
+                    <a href="#">Plants</a>
+                </div>
+              </div>
+              <div>
+                <p class="mb-5 font-bold text-xl">Popular Services</p>
+
+                <div class="flex flex-col gap-1">
+                    <a href="#">Plants cc</a>
+                    <a href="#">Plants </a>
+                    <a href="#">Plants fff</a>
+                    <a href="#">Plants</a>
+                </div>
+              </div>
+              <div>
+                <p class="mb-5 font-bold text-xl">Contact Us</p>
+
+                <div class="flex flex-col gap-1">
+                    <a href="tel:+0000000000">+000000000000</a>
+                    <a href="mailto:yourname@gmail.com">Yourname@gmail.com</a>
+                    <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, maiores!</p>
+                </div>
+              </div>
+         </div>
+         <div class="mt-3">
+            <p class="text-center mt-10 opacity-50">Copyright © 2024 Pavan Sai. All rights reserved.</p>
+         </div>
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
